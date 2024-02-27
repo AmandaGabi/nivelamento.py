@@ -1,5 +1,3 @@
-from random import randint
-
 while True:
     print("Escolha uma opção:")
     print("1. Pedra")
@@ -14,7 +12,7 @@ while True:
 
     opcoes = ["Pedra", "Papel", "Tesoura"]
     jogador_escolha -= 1  
-
+    from random import randint
     computador_escolha = randint(0,2)
 
 
